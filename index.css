@@ -1,0 +1,545 @@
+/* nav content */
+.body {
+  background-color: none;
+}
+.nav-boxx {
+  color: rgb(249, 187, 1);
+  background-color: rgb(48, 33, 174);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  list-style: none;
+  /*align-items: center means to align in the middle of the verical axis  */
+  /* display: flex; means to set a content from a column positioning to row */
+}
+
+.site-name {
+  cursor: pointer;
+}
+
+.site-name:hover {
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  justify-content: center;
+}
+
+.menu-items {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+  text-size-adjust: 10%;
+}
+/* list-style: none; means to remove the the bullet point or the listing style of the nav, meanwhile display: flex; means to put the navs on a row or horizontal setting*/
+
+.menu-items a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: blue;
+  background-color: white;
+}
+
+input[type="search"] {
+  width: 200px;
+  height: 30px;
+  padding: 5%;
+  font-size: 15px;
+  border: 5px solid;
+  border-color: rgb(134, 177, 229);
+  border-radius: 20px;
+  color: blue;
+}
+
+button[type="submit"] {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: rgb(48, 33, 174);
+  color: whitesmoke;
+  border: 2px solid; /* remove the border from the button */
+  border-color: whitesmoke;
+  border-radius: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: white; /* add a hover effect to the button */
+  color: blue;
+  cursor: pointer; /* change the cursor to a pointer on hover */
+}
+
+/* About Section: */
+.master-container {
+  display: flex;
+  margin-top: 50px;
+  border-color: rgb(222, 232, 242);
+  background-color: rgb(222, 232, 242);
+  border-radius: 5px;
+}
+
+.mast-container {
+  display: block;
+  width: 50%;
+  height: 1315px;
+  border-radius: 20px;
+  border-color: #f3f5f6;
+  border: 1px;
+  background-color: rgb(222, 232, 242);
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.about-container {
+  text-align: left;
+  width: 700px;
+  height: 500px;
+  margin-left: -15px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: rgb(134, 177, 229);
+  background-color: rgb(247, 248, 250);
+  padding: 10px;
+  font-family: system-ui;
+  margin-top: -15px;
+}
+
+.abt-image-container {
+  background-color: rgb(48, 33, 174);
+  padding: 10px;
+  width: 550px;
+  height: 250px;
+  margin-left: 5%;
+  border-top-right-radius: 140px;
+  border-bottom-right-radius: 140px;
+  border: 5px solid;
+  border-color: rgb(48, 33, 174);
+}
+
+.main-image-container {
+  height: 210px;
+  width: 205px;
+  background-color: white;
+  border: 5px solid;
+  border-bottom-right-radius: 130px;
+  border-top-left-radius: 98px;
+  margin-top: -220px;
+  margin-left: 50%;
+  border-color: rgb(249, 187, 1);
+}
+
+.lawrence-ugo-size {
+  width: 208px;
+  height: 320px;
+  margin-left: 50.7%;
+  border-top-right-radius: 140px;
+  border-bottom-right-radius: 140px;
+  margin-top: -58px;
+}
+
+.one {
+  font-family: system-ui;
+  font-size: 40px;
+  color: rgb(249, 187, 1);
+  align-items: flex-start;
+  margin-bottom: 0%;
+  margin-left: 5%;
+}
+
+.one span {
+  color: rgb(134, 177, 229); /* color for the letter "e" */
+}
+
+.two {
+  font-family: system-ui;
+  color: rgb(82, 69, 185);
+  font-size: 45px;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+
+.two span {
+  color: rgb(134, 177, 229); /* color for the letter "e" */
+}
+
+.three {
+  color: rgb(134, 177, 229);
+  padding: 10px;
+  font-family: system-ui;
+  margin-top: 0%;
+  margin-left: 1%;
+  font-family: Arial;
+  font-size: 30px;
+  margin-bottom: 0%;
+}
+
+.four {
+  font-family: system-ui;
+  color: rgb(82, 69, 185);
+  font-size: 30px;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 38%;
+}
+
+.five {
+  font-family: system-ui;
+  font-size: 27px;
+  color: rgb(249, 187, 1);
+  align-items: flex-start;
+  margin-top: 0%;
+  margin-left: 1%;
+}
+
+.four,
+.five {
+  display: inline-block;
+}
+
+.two,
+.three {
+  display: inline-block;
+}
+
+.second-about-container {
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: rgb(134, 177, 229);
+  padding: 50px;
+  background-color: white;
+  justify-items: center;
+  width: 28%;
+  height: 50%;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.about-me {
+  font-family: system-ui;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgb(48, 33, 174);
+  margin-top: -2%;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.second-about-container p {
+  font-size: 1px;
+  color: rgb(52, 38, 177);
+  line-height: 35px;
+}
+
+.second-abt-footer-container {
+  font-family: system-ui;
+  font: 40px;
+  text-align: center;
+  color: white;
+  background-color: rgb(48, 33, 174);
+  margin-top: 40px;
+  margin-bottom: -3%;
+  height: 2px;
+  border-radius: 5px;
+}
+
+.second-about-container p {
+  font-family: system-ui;
+  font-size: 18px;
+}
+
+.listing {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listing li {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 35px;
+  font-family: system-ui;
+  font-size: 16px;
+}
+
+.listing li::before {
+  content: "✔";
+  position: absolute;
+  left: 0%;
+  font-size: 16px;
+  color: blue;
+}
+
+.highlight {
+  color: #007bff; /* Highlight color */
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+/* Work/projects Section */
+
+.my-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-content: center;
+  color: #94c2f3;
+  background-color: white;
+  height: 30px;
+  width: 19%;
+  text-align: center;
+  padding-left: 21px;
+  margin-left: 34%;
+  margin-top: 30px;
+  font-family: system-ui;
+  font-size: 22px;
+  margin-bottom: -15px;
+  text-indent: -15%;
+  border-radius: 5px;
+  border-color: rgb(162, 198, 241);
+  border: 0.5px solid;
+}
+
+.first-bot-master-container {
+  display: flex;
+  width: 770px;
+  height: 200px;
+  margin-left: -15px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: white;
+  background-color: white;
+  padding: 10px;
+  font-family: system-ui;
+  margin-top: 23px;
+}
+
+.bot-one-container {
+  width: 25%;
+  height: 100%;
+  border: 1.5px solid;
+  border-color: rgb(162, 198, 241);
+  border-radius: 10px;
+  margin-right: 3px;
+  margin-left: -8px;
+}
+
+.pro-1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bot-two-container {
+  width: 75%;
+  height: 100%;
+  border: 1.5px solid;
+  border-color: rgb(162, 198, 241);
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 0%;
+  color: rgb(36, 29, 102);
+  line-height: 28.5px;
+  padding-bottom: 0%;
+  padding-left: 15px;
+}
+
+.second-bot-master-container {
+  display: flex;
+  width: 770px;
+  height: 200px;
+  margin-left: -15px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: white;
+  background-color: white;
+  padding: 10px;
+  font-family: system-ui;
+  margin-top: 23px;
+}
+
+.pro-2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bot-three-container {
+  width: 25%;
+  height: 100%;
+  border: 1.5px solid;
+  border-color: rgb(162, 198, 241);
+  border-radius: 10px;
+  margin-right: 3px;
+  margin-left: -8px;
+}
+
+.bot-four-container {
+  width: 75%;
+  height: 100%;
+  border: 1.5px solid;
+  border-color: rgb(162, 198, 241);
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 0%;
+  color: rgb(36, 29, 102);
+  line-height: 28.5px;
+  padding-bottom: 0%;
+  padding-left: 15px;
+}
+
+.third-bot-master-container {
+  display: flex;
+  width: 770px;
+  height: 200px;
+  margin-left: -15px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: white;
+  background-color: white;
+  padding: 10px;
+  font-family: system-ui;
+  margin-top: 23px;
+}
+
+.pro-3 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bot-five-container {
+  width: 25%;
+  height: 100%;
+  border: 1.5px solid;
+  border-color: rgb(162, 198, 241);
+  border-radius: 10px;
+  margin-right: 3px;
+  margin-left: -8px;
+}
+
+.bot-six-container {
+  width: 75%;
+  height: 100%;
+  border: 1.5px solid;
+  border-color: rgb(162, 198, 241);
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 0%;
+  color: rgb(36, 29, 102);
+  line-height: 28.5px;
+  padding-bottom: 0%;
+  padding-left: 15px;
+}
+
+/* Resume Section: */
+
+#resume {
+  background-color: rgb(214, 227, 243);
+  padding: 2em;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.resume-container {
+  height: 95%;
+  width: 95%;
+  background-color: white;
+  justify-content: center;
+  margin-left: 2%;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: rgb(52, 38, 177);
+  font-family: system-ui;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.professional-summary {
+  line-height: 30px;
+}
+
+.summary {
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* Contact Section: */
+
+#contact {
+  background-color: rgb(214, 227, 243);
+  padding: 2em;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+#contact h2 {
+  color: #333;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact label {
+  margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Footer Section */
+
+.footer-section {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  height: 300px;
+  margin-top: 60px;
+}
+
+.my-name-footer {
+  display: flex;
+  height: 40px;
+  width: 250px;
+  margin-left: 43%;
+  margin-top: 275px;
+  background-color: #333;
+  color: white;
+}
